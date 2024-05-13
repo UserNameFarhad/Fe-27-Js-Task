@@ -5,19 +5,27 @@
 // Bir dollar üçün məzənnə 75 rubl təşkil edir.
 // Bu halda, funksiya belə mesaj göstərməlidir: Bütün depozitlər üzrə məbləğ: 2700 rubl.
 
-function sum (rubl, dollar) {
+// function sum (rubl, dollar) {
 
-    let rubltodollar = dollar * 75; // dollari rubla ceviririk
+//     let rubltodollar = dollar * 75; // dollari rubla ceviririk
 
-    let cem = rubl + rubltodollar ;
+//     let cem = rubl + rubltodollar ;
 
-    return cem + ' rubl'
-}
+//     return cem + ' rubl'
+// }
 
-console.log(sum (1200 , 20))
+// console.log(sum (1200 , 20))
 
 
 
 // rubl to dollar = dollar * 75 // 20*75=1500
 // cem = rubl + rubltodollar(20*75=1500) // eger rubl 1200 // 1200 + 1500 = 2700
 // return cem i cixar
+
+// const usd = 20;
+// const rubl = 1200;
+// const myMoney = (usd, rubl) => {
+//     const rubltodollar = usd * 75;
+//     return rubltodollar + rubl;
+// }
+// document.write (myMoney(usd, rubl))
