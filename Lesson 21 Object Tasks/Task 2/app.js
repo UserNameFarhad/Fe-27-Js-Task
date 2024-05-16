@@ -32,9 +32,10 @@ const user1 = {
         }
     }
 
-    let user2 = Object.assign({}, user1)
+    // let user2 = Object.assign({}, user1)
+    const user2 = user1 // bu cur biz obyektin hem value hemde referansini kopyalayib gonderirik.
 
-    user2.name = "jhon"
+    user2.name = "john"
     user1.username = "Doe"
     
     console.log("User1 ", user1);
