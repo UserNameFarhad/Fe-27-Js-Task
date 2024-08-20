@@ -1,0 +1,2 @@
+Use Reduce:
+Use Reduce da bizim 4ed komponentimiz var: view, action, dispatch, store.

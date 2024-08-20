@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+p{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+h1{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    text-align: center;
+    /* padding-top: 15px;
+  padding-bottom: 15px; */
+  /* font-size: 16px; */
+  line-height: 200px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+h2{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}

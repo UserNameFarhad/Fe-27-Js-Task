@@ -1,0 +1,17 @@
+@media (max-width: 1000px) and (min-width:500px) {
+    .cards{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.card-image-last {
+    grid-column: 1/-1;
+}
+}
+
+@media (max-width:500px) {
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

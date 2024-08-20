@@ -1,0 +1,11 @@
+Export default, named Export
+Context api - bizim merkezde bir eded melumatimiz olur ve biz o melumati istediyim komponente oture bilirik. Təsəvvür edin ki, bir qrup komponentləriniz var və hər komponent eyni melumati bilməlidir Bu mesajı bir zəncir boyunca bir komponentden digərinə ötürmək əvəzinə Siz sadəcə olaraq hər kəsin görüb oxuması üçün işarəni (kontekst) divara asa bilərsiniz. 
+Context yaratmaq ucun biz bir context qovlugu yaratmaliyiq. qovluqda nameContext.jsx yaradiriq, nameContext odurki bizim adimiz her bir sehifede eyni olacaq.
+Context yaratmaq ucun CreateContext : const NameContext = createContext() ve onun default deyeri olmalidirm, default deyer bow "" vere bilersiz.
+Contentin hami terefen gormesi ucun contenti provider etmeliyem. rafce ile <NameContextc.provider value = "ali">  </NameContextc.provider> bu cur yazmaqla ali adini her yerde iwlede bilerik. NameContextProvider callback-nin ve NameContextProvider arasina {children} yazmaq lazimdirki ekranda yazdiqlarimiz gorsensin value istediyimiz element vere bilerik 
+Daha sonra biz bunu main jsx de isletmeliyik ve main.jsx e gelib <App /> i <NameContextProvider></NameContextProvider> icerisine aliriq
+Contexti isletmek ucun useContext den istifade etmek lazimdir. useContext bizden context tipinde bir sey alir. Mes NameContext.jsx de yazdigimiz const "NameContext = createContext("") " ozu bir context tipidir. biz bunu NameContextde istifade etdik ve counter de istifade etmeliyem. NameContext sozunu goturub useContext() icerisine aliriq. Name contextde Export edirik useContext olan yerde ise import edirik. Daha sonra const ad = useContext(NameContext) "ad" icerisine alib bu adi her yerde istifade ede bilersiz. {ad} harda isletmek istesez birinci hemin sehifede const ad = useContext(NameContext) yaziriq sonra ise {ad} cagiririq .
+Unutmayin ki App.jsx e gelib hansi sehifedeki adi cixardmaq istyirsiz onun jsx adini <> icerisinde yazin.
+NameContext.provider da ad evezine reqem verib her yerde deyiwmek : value da ad evezine reqem veririk, NameContext de bawlangic deyeri 0 edirik (export const NameContext = createContext(0)) evvel bowluq idi indi ise 0 etdik, daha sonra state yaradib ora oturmek lazimdir, NameContext sehifesinde state yaradib [count, setCount] - u NameContext.Provider value beraber edirik.  
+///////////////////
+Elaveler:

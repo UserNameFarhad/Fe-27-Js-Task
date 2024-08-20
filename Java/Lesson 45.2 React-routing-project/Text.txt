@@ -1,0 +1,3 @@
+React project iwledikde vacib qovluqlar : Components, pages, reducers, routing
+Pages: Pages bolmesinde Home, About, Contact sehifelerini yaradiriq.
+Components : Components qovluqunun icerisinde common ve layout qovlugu yaradiriq. layout: layout qovluqunun icerisinde Header ve Footer bolmelerini yaradiriq.    Header: Header bolmesinde Headera aid olan bolmeleri yaradirsiz Mes: Home, About, Contact.                                                                               Header ve Footer bolmesini harda cagiririq: layout icerisinde PageContainer qovlugu yaradiriq onun icerisinde cagiririq.

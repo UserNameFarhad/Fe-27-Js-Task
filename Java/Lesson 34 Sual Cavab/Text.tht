@@ -1,0 +1,307 @@
+1. a teginin esas atributu
+
+Основным атрибутом тега <a> является атрибут href. Этот атрибут определяет URL-адрес, на который ведет ссылка. Без этого атрибута тег <a> не будет функционировать как гиперссылка.
+
+2. Теги list
+
+Нумерованные списки (<ol>)
+Тег <ol> используется для создания упорядоченных (нумерованных) списков. Каждый элемент списка обозначается тегом <li> (list item).
+
+Пример
+html
+Copy code
+<ol>
+  <li>Первый элемент</li>
+  <li>Второй элемент</li>
+  <li>Третий элемент</li>
+</ol>
+В результате будет создан нумерованный список:
+
+Первый элемент
+Второй элемент
+Третий элемент
+
+Маркированные списки (<ul>)
+Тег <ul> используется для создания неупорядоченных (маркированных) списков. Каждый элемент списка также обозначается тегом <li>.
+
+Пример
+html
+Copy code
+<ul>
+  <li>Первый элемент</li>
+  <li>Второй элемент</li>
+  <li>Третий элемент</li>
+</ul>
+В результате будет создан маркированный список:
+
+Первый элемент
+Второй элемент
+Третий элемент
+
+3. разница между дисплеями inline, block и inline-block  
+
+Свойство display в CSS определяет, как элемент будет отображаться на веб-странице. Оно может принимать различные значения, среди которых наиболее часто используются inline, block и inline-block. Рассмотрим различия между этими значениями:
+
+display: inline;
+Поведение: Элементы с display: inline; располагаются в одном ряду, друг за другом, как слова в тексте.
+Размеры: Элемент принимает только ту ширину, которая необходима его содержимому. Нельзя задать ширину (width) и высоту (height).
+Отступы: Вертикальные отступы (margin и padding) оказывают влияние на другие элементы только в пределах строки.
+Примеры: Теги <span>, <a>, <strong>, <em> по умолчанию являются inline.
+Пример
+html
+Copy code
+<span>Элемент 1</span>
+<span>Элемент 2</span>
+<span>Элемент 3</span>
+Элементы будут располагаться в одну строку: Элемент 1 Элемент 2 Элемент 3
+
+display: block;
+Поведение: Элементы с display: block; занимают всю доступную ширину и начинаются с новой строки.
+Размеры: Можно задавать ширину (width) и высоту (height).
+Отступы: Отступы (margin и padding) действуют во всех направлениях.
+Примеры: Теги <div>, <p>, <h1>-<h6>, <ul>, <ol>, <li> по умолчанию являются block.
+Пример
+html
+Copy code
+<div>Элемент 1</div>
+<div>Элемент 2</div>
+<div>Элемент 3</div>
+Элементы будут располагаться один под другим, каждый занимая всю ширину контейнера.
+
+display: inline-block;
+Поведение: Элементы с display: inline-block; располагаются в одном ряду, как inline, но ведут себя как block, то есть могут иметь заданные ширину и высоту.
+Размеры: Можно задавать ширину (width) и высоту (height).
+Отступы: Отступы (margin и padding) действуют во всех направлениях, как у блочных элементов.
+Примеры: Элементы <img> по умолчанию являются inline-block.
+Пример
+html
+Copy code
+<div style="display: inline-block; width: 100px; height: 100px; background-color: lightblue;">Элемент 1</div>
+<div style="display: inline-block; width: 100px; height: 100px; background-color: lightgreen;">Элемент 2</div>
+<div style="display: inline-block; width: 100px; height: 100px; background-color: lightcoral;">Элемент 3</div>
+Элементы будут располагаться в одну строку, но каждый будет иметь заданные ширину и высоту.
+
+Визуальный пример
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property Example</title>
+    <style>
+        .inline-example {
+            display: inline;
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        .block-example {
+            display: block;
+            background-color: lightgreen;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .inline-block-example {
+            display: inline-block;
+            background-color: lightcoral;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <span class="inline-example">Inline 1</span>
+    <span class="inline-example">Inline 2</span>
+    <span class="inline-example">Inline 3</span>
+    <br>
+    <div class="block-example">Block 1</div>
+    <div class="block-example">Block 2</div>
+    <div class="block-example">Block 3</div>
+    <br>
+    <div class="inline-block-example">Inline-block 1</div>
+    <div class="inline-block-example">Inline-block 2</div>
+    <div class="inline-block-example">Inline-block 3</div>
+</body>
+</html>
+В этом примере видно, как элементы с разными значениями display ведут себя на странице.
+
+ES6 metodlari hansilardir
+В JavaScript массивы имеют множество встроенных методов, которые облегчают манипулирование данными. Вот основные методы для работы с массивами:
+
+### Методы изменения массива
+
+1. **`push`** - добавляет один или несколько элементов в конец массива и возвращает новую длину массива.
+    ```javascript
+    const arr = [1, 2, 3];
+    arr.push(4); // [1, 2, 3, 4]
+    ```
+
+2. **`pop`** - удаляет последний элемент из массива и возвращает его.
+    ```javascript
+    const arr = [1, 2, 3];
+    arr.pop(); // [1, 2]
+    ```
+
+3. **`shift`** - удаляет первый элемент из массива и возвращает его.
+    ```javascript
+    const arr = [1, 2, 3];
+    arr.shift(); // [2, 3]
+    ```
+
+4. **`unshift`** - добавляет один или несколько элементов в начало массива и возвращает новую длину массива.
+    ```javascript
+    const arr = [1, 2, 3];
+    arr.unshift(0); // [0, 1, 2, 3]
+    ```
+
+5. **`splice`** - изменяет содержимое массива, удаляя существующие элементы и/или добавляя новые.
+    ```javascript
+    const arr = [1, 2, 3, 4, 5];
+    arr.splice(2, 1); // [1, 2, 4, 5] (удаляет один элемент с индекса 2)
+    arr.splice(2, 0, 3); // [1, 2, 3, 4, 5] (добавляет элемент 3 на индекс 2)
+    ```
+
+6. **`reverse`** - меняет порядок элементов в массиве на обратный.
+    ```javascript
+    const arr = [1, 2, 3];
+    arr.reverse(); // [3, 2, 1]
+    ```
+
+7. **`sort`** - сортирует элементы массива и возвращает отсортированный массив.
+    ```javascript
+    const arr = [3, 1, 2];
+    arr.sort(); // [1, 2, 3]
+    ```
+
+8. **`fill`** - заполняет все элементы массива от начального до конечного индекса статическим значением.
+    ```javascript
+    const arr = [1, 2, 3, 4, 5];
+    arr.fill(0, 2, 4); // [1, 2, 0, 0, 5]
+    ```
+
+### Методы доступа и итерации
+
+1. **`forEach`** - выполняет указанную функцию один раз для каждого элемента массива.
+    ```javascript
+    const arr = [1, 2, 3];
+    arr.forEach(num => console.log(num)); // 1, 2, 3
+    ```
+
+2. **`map`** - создаёт новый массив с результатом вызова указанной функции для каждого элемента массива.
+    ```javascript
+    const arr = [1, 2, 3];
+    const doubled = arr.map(num => num * 2); // [2, 4, 6]
+    ```
+
+3. **`filter`** - создаёт новый массив со всеми элементами, прошедшими проверку, задаваемую в передаваемой функции.
+    ```javascript
+    const arr = [1, 2, 3, 4];
+    const even = arr.filter(num => num % 2 === 0); // [2, 4]
+    ```
+
+4. **`reduce`** - применяет функцию к аккумулятору и каждому элементу массива (слева направо), сводя его к единственному значению.
+    ```javascript
+    const arr = [1, 2, 3, 4];
+    const sum = arr.reduce((total, num) => total + num, 0); // 10
+    ```
+
+5. **`some`** - проверяет, удовлетворяет ли хотя бы один элемент массива условию, задаваемому в передаваемой функции.
+    ```javascript
+    const arr = [1, 2, 3];
+    const hasEven = arr.some(num => num % 2 === 0); // true
+    ```
+
+6. **`every`** - проверяет, удовлетворяют ли все элементы массива условию, задаваемому в передаваемой функции.
+    ```javascript
+    const arr = [1, 2, 3];
+    const allEven = arr.every(num => num % 2 === 0); // false
+    ```
+
+7. **`find`** - возвращает первый элемент массива, который удовлетворяет условию, задаваемому в передаваемой функции.
+    ```javascript
+    const arr = [1, 2, 3, 4];
+    const found = arr.find(num => num > 2); // 3
+    ```
+
+8. **`findIndex`** - возвращает индекс первого элемента массива, который удовлетворяет условию, задаваемому в передаваемой функции.
+    ```javascript
+    const arr = [1, 2, 3, 4];
+    const index = arr.findIndex(num => num > 2); // 2
+    ```
+
+9. **`includes`** - определяет, содержит ли массив определённый элемент, возвращая в зависимости от этого `true` или `false`.
+    ```javascript
+    const arr = [1, 2, 3];
+    const hasTwo = arr.includes(2); // true
+    ```
+
+### Методы для создания новых массивов
+
+1. **`concat`** - возвращает новый массив, состоящий из этого массива, соединённого с другими массивами и/или значениями.
+    ```javascript
+    const arr1 = [1, 2];
+    const arr2 = [3, 4];
+    const arr3 = arr1.concat(arr2); // [1, 2, 3, 4]
+    ```
+
+2. **`slice`** - возвращает новый массив, содержащий копию части исходного массива.
+    ```javascript
+    const arr = [1, 2, 3, 4];
+    const sliced = arr.slice(1, 3); // [2, 3]
+    ```
+
+3. **`flat`** - возвращает новый массив, в котором все элементы вложенных подмассивов были рекурсивно "подняты" на указанный уровень глубины.
+    ```javascript
+    const arr = [1, [2, [3, 4]]];
+    const flattened = arr.flat(2); // [1, 2, 3, 4]
+    ```
+
+4. **`flatMap`** - сначала применяет функцию к каждому элементу, а затем преобразует результат в новый массив.
+    ```javascript
+    const arr = [1, 2, 3];
+    const flatMapped = arr.flatMap(num => [num, num * 2]); // [1, 2, 2, 4, 3, 6]
+    ```
+
+### Прочие полезные методы
+
+1. **`join`** - объединяет все элементы массива в строку.
+    ```javascript
+    const arr = [1, 2, 3];
+    const str = arr.join('-'); // "1-2-3"
+    ```
+
+2. **`toString`** - возвращает строковое представление массива.
+    ```javascript
+    const arr = [1, 2, 3];
+    const str = arr.toString(); // "1,2,3"
+    ```
+
+3. **`indexOf`** - возвращает первый индекс, по которому данный элемент может быть найден в массиве, или -1, если такого индекса нет.
+    ```javascript
+    const arr = [1, 2, 3];
+    const index = arr.indexOf(2); // 1
+    ```
+
+4. **`lastIndexOf`** - возвращает последний индекс, по которому данный элемент может быть найден в массиве, или -1, если такого индекса нет.
+    ```javascript
+    const arr = [1, 2, 3, 2];
+    const index = arr.lastIndexOf(2); // 3
+    ```
+
+Эти методы предоставляют мощные и гибкие средства для работы с массивами в JavaScript.
+
+/////
+
+programlaşdırma dilləri oxunmasına görə neçə yerə bölünür ?
+compiler
+interpreter
+
+compiler-ar basdan oxuyur sonda executable file yaradırlar
+interpreter-ar sətir sətir oxuyurlar və oxuduqları müddətdə icra edirlər
+javascript interpreter dildi
+
+Node JS programlaşdırma dili deyl, o bir runtime environment-di, yəni javascripti işlədən run edən bir mühitdir.

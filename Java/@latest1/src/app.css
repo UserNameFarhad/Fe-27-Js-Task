@@ -1,0 +1,37 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #212121;
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.card {
+    border: 3px solid darkred;
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+.box {
+    width: 200px;
+    height: 200px;
+}

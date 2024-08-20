@@ -1,0 +1,14 @@
+FrameWork və Library nədi ? Hər ikisi sənin rahat işləyəcəyin bir mühitdir.
+FrameWork programların işləməsini sürətləndirən alətlər toplusudur.
+React layihəsi yaratmaq üçün ilk olaraq terminalda əmr yazmalıyıq: npx create-vite-app@latest. Yazdıqdan sonra project name və ya package name-ə sadə ad qoymaq lazımdır.
+Daha sonra yeni yaradılan qovluğun içərisində node moduls qovluğu yaratmaq lazımdır. onun üçün npm install etməliyik. terminalda npm i yazırıq. Daha sonra npm run dev yazırıq, qarşımıza local host url cıxır.
+React ilə işləmək. Öncə lazımsızları silirik. accets, app css, index css, app.jsx. main jsx icerisinde import index.css, app jsx import, app adinida silirik.string mode da silirik.
+main jsx icerisinde function yazarken funciton-i 3defe cagirmaq ucun onlari 1 divin icerisine almaq lazımdır. eger funciton cagirisi yazildigi kimi ekrana cixirsa onu {} bezekli moterize icerisinde yazmaliyiq.
+Kenardakı faylı öz faylımızda necə istifadə etməliyik. meselen : App.jsx yaratmışıq onun içərisindəkiləri birinci export etmək üçün export default App; yazmaq lazımdır. Daha sonra hara import etmek isteyirikse orda faylimizin adini yazmaq kifayet edir.
+React özu spa -> single page application.
+css yaradarken css components qovlugundan kenarda olacaq App ve main jxs yaninda
+css i import etmek ucun App.jsx de yuxaridan import "./app.css"; yaziriq
+Header ve navbar yaratmaq: Scr icerisinde component adinda qolvuq yaradiriq icerisinde Header.jsx yaradiriq.
+Datalari dinamiklesdirmek - Datalari props vasitesile dinamiklesdirik. props bir komponentden basqa bir komponente data gondermekdir.
+Datalar: Mes App.jsx de card birine data veririk name ve description, sonra card.jsx de qebul edirik arqument kimi destraksiya edib .
+Reactda datalari dovr etmek ucun map istifadə edirik. Dovr edende {} bezekli moterize icerisinde yaziriq

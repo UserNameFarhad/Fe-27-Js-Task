@@ -1,0 +1,1 @@
+Componentlerin 3 yawam dovru var: mount, update ve unmount. useEffect onlarin idare olunmasi ucun istifade olunur, useEffect in axirinda bow massiv elave etdikde component 1defe render olunur. Bow massive dependency list deyilir. 

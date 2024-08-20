@@ -1,0 +1,6 @@
+node js işlətmək üçün birinci initiliaz etməliyik - terminalda npm init yazacayıq. npm init -y yazanda avtomatik yaradır.
+consola yazılanı terminalda görmək üçün terminala node app.js (faylın adı) yazmaq lazımdır.
+fetch işlətməkdən öncə terminalda npm i node-fetch yazıb yükləmək lazımdır.
+axios yükləmək üçün npm i axios terminala yazmaq lazımdır
+axios adi istifadə etmək üçün import etmək lazımdır
+package.json da type default olaraq commonjs olur, onum ilə require versiya ilə data yazmaq olur. type ı dəyişib module etdikdə isə import ilə data yazmaq olar. Sonra data.js faylı yaradırıq datamızı orda yazırıq, yazdıqdan sonra əsas faylımızda (app.js) data yazarkən import export yazısını görürük.

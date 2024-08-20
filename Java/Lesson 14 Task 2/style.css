@@ -1,0 +1,31 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: 29px auto;
+}
+
+.box {
+    border: 2px solid;
+    display: flex;
+    display: inline-block;
+    width: 23%; 
+    height: 200px;
+}
+
+@media (max-width: 800px) {
+    .box {
+        width: 30%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 48%;
+        
+    }
+}
