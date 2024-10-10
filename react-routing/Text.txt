@@ -1,0 +1,40 @@
+React router yuklemek ucun terminalda npm i react-router ve react-router-dom pateklerini ya yukleyirik
+Daha sonra main jsx de <BrowserRouter> componentinin icerisinde App i aliriq
+Active tegini istifade etmek ucun Navlink-den istifade etmek lazimdir
+13721730946 3.2 seineca /+ 32m
+13721726916 7.36 genesso /+ 14.72m
+13721247405 4.62 asakashi /+ 23m
+13721715880 3.91m genesso 19.55m
+13721702907 5.1 genesso 25.5m
+13717503141 5.1 genesso 15.3m
+13717521033 5.5m genesso 27.6m
+13717521023 5.7 genesso 11.4m
+13717793647 17.5m ufi 35m 
+13717505007 5.1m genesso 30.6m
+13717548888 5.78 genesso 28.9m
+13717548898 6.46m genesso 32.3m
+13717548897 6.46m genesso 32.3m
+13717798342 23.58 ufi 47m
+13717532754 6.8 genesso 13.6m
+13717536006 7.24m genesso 14.48m
+13717542294 5.97m gensso 12m
+13717556961 7.28m agat 13.44 asakashi / 14.56m + 13.44m
+13717582908 5.7m agat 57m ufi 16.06m /  80m
+13717590597 7.71m Agat 15.42m
+13717638566 20.15m genesso 40.3m
+13718507320 6.14m genesso 30.7m
+13718511668 20.3 ufi 20.3m
+13718605164 
+13718580428 6.85m genesso 34.25m
+13718691835
+13718577170
+13712246997 16m kruger 16m
+13712246416 8.59m genesso 25.77m
+13712247444 9.85 agat 30m
+13721736675 9.38m agat 46.9m
+13717800151 27.2 genesso 54.4m
+13717571355 5.06 agat 7.16 asakashi / 10m + 14.3m 
+13717811026 42.68m asakashi 42.68m
+13718518111 20.59m agat 37.17m ufi / 20.59 + 37.17m
+13717577457 20.15m genesso 80.06m
+13718570043 

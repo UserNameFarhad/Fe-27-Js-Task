@@ -1,0 +1,5 @@
+typescript project yaratmaq ucun konsolda ve ya cmd de tsc --init yaziriq
+typescript project yaratdiqdan sonra tsconfig.json fayli yaranacaq onun icerisinde bezi deyiwiklikler etmek olar mes: rootDir: icerisinde src yazsaq o avtomatik olaraq javascript fayllarini src qovlugunun icerisinde axtaracaq. outDir icerisinde dist yazsaq o javascript dist icerisinde yaradacaq.
+typescript de type vermek 2cut olur imolicitly, explicitly. let a = 12->implicity | let b: number = 12 explicitly.    
+index.ts icerisinde kod yazdiqdan sonra onun js e donmesi ucun terminalda tsc yazmagimiz kifayetdir ve sonra --watch yaziriq watch moduna cevirmesi ucun.
+yazilanlarin ekranda gorunmesi ucun html fayl yaradirirq script src icerisinde index.js yaziriq daha sonra 

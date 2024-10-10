@@ -1,0 +1,81 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    border: none; outline: none;
+}
+
+header {
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vw;
+    background: url(https://uhdwallpapers.org/download/perfect-red-rose_7556/1920x1080/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;   
+}* 
+
+.home .content h1 {
+    /* text-align: justify; */
+    color: #fff;
+    font-size: 100px;
+    width: 1060px;
+    height: 244px;
+    /* position: absolute; */
+    /* top: 450px; */
+}
+
+.home .content {
+    max-width: 50rem;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    box-shadow: 8px 7px 10px -4px rgba(66, 68, 90, 1);
+    /* border: 1px solid; */
+    border-radius: 5px;
+    padding: 17px;
+}
+
+.icons .fa-magnifying-glass{
+    width: 45px;
+    height: 45px;
+    box-shadow: 8px 7px 10px -4px rgba(66, 68, 90, 1);
+    /* border: 1px solid; */
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.icons .fa-cart-shopping {
+    width: 75px;
+    height: 45px;
+    box-shadow: 8px 7px 10px -4px rgba(66, 68, 90, 1);
+    /* border: 1px solid; */
+    border-radius: 5px;
+    padding: 13px;
+    padding-left: 25px;
+    /* margin-left: 20px; */
+}
+
+
+

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://files.123freevectors.com/wp-content/solidbackground/very-dark-blue-free-solidcolor-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar a, h1{
+    color: white;
+}
+
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar ul, li {
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+}
+
+.navbar ul, li, a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.amargin {
+    background-color: #23A6F0;
+    width: 137px;
+    height: 52px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    margin-left: -45px;    
+}
+
+.bmargin{
+    margin-left: 60px;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    /* left: 34.5%; */
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    
+}
+
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+    /* width: 600px; */
+}
+
+.content p{
+    font-size: 20px;
+    margin: 20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+}
+
+.top1{
+    color: #23A6F0;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size:21px;
+    /* background: transparent; */
+    /* border: #23A6F0; */
+}
+
+.button1{
+    background-color: #23A6F0;
+    color: #fff;
+}
+
+.button2{
+    background: transparent;
+    border: 2px solid #23A6F0;
+    color: #23A6F0;
+}
+
+.boxes{
+    width: 300px;
+    height: 300px;
+    /* display: flex; */
+    background-color: #fff;
+    margin: 0px 25px;
+    color: black;
+    text-align: justify;
+    padding: 30px 10px;
+}
+
+.box{
+    display: flex;
+    /* bottom: 50px; */
+    position: absolute;
+    top: 450px;
+    left: 20%;
+}
+
+
+
+
+
+

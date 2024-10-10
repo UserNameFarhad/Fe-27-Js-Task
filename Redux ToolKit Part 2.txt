@@ -1,0 +1,5 @@
+-Products , ProductsSingle, ShoppingCart qovlugu yaradiriq productlari elave etmek ucun
+-Qovluqlardaki fayllari routinge elave edirik.
+-Layout qovlugunda Headerin icerisindeki faylda links [] arrayi icerisine elave edirik
+-slices qovlugu icerisinde productsSlice.js yaradiriq icerisinde createSlice yaradiriq ve name: {} ve reducers: {} yaradiriq icerisine increment ve 
+decrementlerimizi doldururuq 
