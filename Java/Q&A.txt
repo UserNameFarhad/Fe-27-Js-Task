@@ -13,4 +13,5 @@
 13.Package.json - bu bir falydir hansiki node.js projectlerinde istifade olunur ve projectin parametrlerini idare edir. Orda esasen project haqqinda melumatlar olur mes: projectin adi, versiyasi, muellifi. Datalar orda saxlanilir. Orda kitabxanalarda saxlanilir hansiki projectin islemesine komek olunur.
 14. MUI - Material UI - Google-in dizayn prinsiplerine esaslanan React kitabxanasidir.
 15. createTheme() - bu bir React ucun Material UI kitabxanasindan gelen funksiyadir hansiki onun komeyi ile tetbiqin temalarini deyiwdire bilersiz ve o deyiwikleri butun tetbiqde istifade etmek olacaq.
-16. Stack - funksiya cagirilanda o stek yaddawda saxlanilir, funksiya iwini bitirende stackdan silinir. xususi bir componentdiki display flex i var 
+16. Stack - funksiya cagirilanda o stek yaddawda saxlanilir, funksiya iwini bitirende stackdan silinir. xususi bir componentdiki display flex i var.
+17. Single Responsibility - her funksiya bir is gormelidir

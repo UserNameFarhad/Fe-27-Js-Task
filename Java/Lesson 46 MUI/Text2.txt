@@ -57,3 +57,6 @@ export default configureStore({
 })  bele bir kod alinir.
 
 isletmek novu 2curdu: eger datani goturmek isteyirsense useSelector eger funksiyani cagirmaq isteyirsense useDispatch ile isledirik
+
+///////////
+Products ve shopping qovluqlarimizi yaradiriq ve onlari reducere elave edirik

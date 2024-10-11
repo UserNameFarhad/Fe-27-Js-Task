@@ -16,6 +16,11 @@ const links = [
         id:2,
         title: "Contact",
         href: "/contact"
+    },
+    {
+        id:3,
+        title: "Products",
+        href: "/products"
     }
 ]
 
