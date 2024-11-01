@@ -1,4 +1,0 @@
-Material UI - Google-in dizayn prinsiplerine esaslanan React kitabxanasidir.
-MUI bize dizayn, styling ve componentler verir. 
-Matrialize css - MUI - in html css ucun...
-MUI install etmek ucun official sehifesinde install bolmesinde kodu copuy edib terminala atiriq npm install @mui/material @emotion/react @emotion/styled

@@ -1,2 +1,0 @@
-npx json-server --watch data.json
-npm i --g json-server

@@ -1,9 +1,0 @@
-Material UI - Google-in dizayn prinsiplerine esaslanan React kitabxanasidir.
-MUI bize dizayn, styling ve componentler verir. 
-Matrialize css - MUI - in html css ucun...
-MUI install etmek ucun official sehifesinde install bolmesinde kodu copuy edib terminala atiriq npm install @mui/material @emotion/react @emotion/styled
-createTheme() - bu bir React ucun Material UI kitabxanasindan gelen funksiyadir hansiki onun komeyi ile tetbiqin temalarini deyiwdire bilersiz ve o deyiwikleri butun tetbiqde istifade etmek olacaq.
-createTheme : context qovlugu yaradib onun icersinide theme.js yaradiriq
-createTheme - de components: MuiButton : defaultProps : variant : outlined vermekle tetbiqde butun button - ra outlined vere bilerik.
-Once main.jsx e gelib <App /> i <ThemeProvider theme={theme}> </ThemeProvider> icerisine almaq lazimdir
-Elave dizayn deyiwiklikleri etmek isteyirsizse {}, baglanan yerden sonra StyleOverrides: {root: {textTransform: "capitalize"}}

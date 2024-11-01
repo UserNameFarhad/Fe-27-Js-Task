@@ -1,9 +1,0 @@
-{
-    "color": ["red","green","blue"],
-    "name": "ramin",
-    "user": [
-       {"name":"ramin"},
-       {"name":"ramin"},
-       {"name":"ramin"}
-    ]
-}
