@@ -1,3 +1,0 @@
-npm install -g typescript typescript yuklemek ucun cmd de bu kodu yaziriq
-cd "C:/Users/fa856/OneDrive/Рабочий стол/Fe-27-Js-Task/TypeScript" - bu kod cmd de faylin yerini tapmasina komek olur
-tsc index.ts --watch

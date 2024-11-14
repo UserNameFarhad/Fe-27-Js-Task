@@ -527,16 +527,16 @@ section{
 
 /* send gift */
 
-.send .container {
-  background: #45c287;
-  align-items: center;
-  border-radius: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+.send .container{
+    background: #45c287;
+    align-items: center;
+    border-radius: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.send .container .content {
+.send .container .content{
     flex: 1 1 42rem;
     margin: 0 3.5rem;
     text-align: center;
@@ -581,90 +581,114 @@ section{
 
 /* end */
 
-/* Основные стили для секции "Contact" */
-.contact {
-    padding: 50px 100px;
-    background-color: #f9f9f9;
-}
+/* contact */
 
-.contact .heading {
-    text-align: center;
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.contact .heading span {
-    color: #00bfa5; /* Цвет текста "Contact" */
-}
-
-/* Стили для расположения row */
-.contact .row {
+.contact .row{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
-/* Стили для изображения */
-.contact .image img {
-    max-width: 100%;
-    border-radius: 8px;
+.contact .row .image{
+    flex: 1 1 30rem;
 }
 
-/* Стили для формы */
-.contact form {
-    max-width: 500px;
-    width: 100%;
-    background: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.contact .row .image img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
 }
 
-.contact form h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color: #333;
+.contact .row form{
+    flex: 1 1 42rem;
+    padding: 2rem;
+    border: .1rem solid rgba(0,0,0,0.3);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border-radius: .5rem;
 }
 
-.contact form .inputBox {
+.contact .row form h3{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: #10221b;
+}
+
+.contact .row form .inputBox{
     display: flex;
-    gap: 20px;
-    margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.contact form .inputBox input,
-.contact form textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    outline: none;
+.contact .row form .inputBox input{
+    width: 49%;
+}
+
+.contact .row form .inputBox input,
+.contact .row form textarea{
+    border: .1rem solid rgba(0,0,0,0.3);
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    color: #10221b;
+    text-transform: none;
+    margin: .7rem 0;
+}
+
+.contact .row form textarea{
+    height: 15rem;
     resize: none;
+    width: 100%;
 }
 
-.contact form textarea {
-    height: 150px;
+/* end */
+
+/* footer */
+
+.footer{
+    background: #f4fffa;
 }
 
-.contact form .btn {
-    display: inline-block;
-    padding: 10px 20px;
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: #10221b;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #666;
+    line-height: 2;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a:hover{
+    color: #45c287;
+}
+
+.footer .box-container .box a i{
+    color: #10221b;
+    padding-right: .5rem;
+}
+
+.credit{
+    text-align: center;
+    background: #10221b;
     color: #fff;
-    background-color: #00bfa5;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 2rem;
 }
-
-.contact form .btn:hover {
-    background-color: #009a88;
-}
-
 
 
 /* media query */
@@ -695,7 +719,6 @@ section{
         left: auto;
         right: 8rem;
     }
-
     .send .container .content{
         padding-top: 2rem;
     }
@@ -725,6 +748,8 @@ section{
         margin: 2rem;
         display: block;
     }
+
+    
 
     .send .container .image img{
         width: 100%;
